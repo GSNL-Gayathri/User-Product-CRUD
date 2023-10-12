@@ -21,20 +21,6 @@ app.use((req, res, next) => {
     next();
 });
 
-// app.use((req, res, next) => {
-//     const authHeader = req.headers['authorization'];
-
-//     if (authHeader) {
-//       const token = authHeader.split(' ')[1];
-
-//       if (token) {
-//         req.token = token; 
-//       }
-//     }
-
-//     next();
-//   });
-
 app.get("/hello", (req, res, next) => {
     res.json({ message: `User CRUD hello world ${process.env.NODE_ENV}` });
 });
