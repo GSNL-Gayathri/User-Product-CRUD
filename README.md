@@ -1,7 +1,7 @@
 # User-Product-CRUD
 This is a simple Node.js application using Node.js, Express.js, Mongoose(MongoDB).
 I have used mongoose Schemas for building these APIs.
-The simple taks involves the following:
+The requirements involves the following:
 1) User registration
 2) While register the user by using 'pre' method to save the encripted password.
 3) User Login
